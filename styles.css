@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+body {
+  background-color: black;
+  color: white;
+}
+
+h1 {
+  font-family: "Staatliches", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  
+  color: rgba(182, 182, 182, 0.3);
+  position: fixed;
+  font-size: 50vw;
+  margin: 0;
+  padding: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  user-select: none;
+  z-index: -2;
+}
+
+.doxr2nd1, .doxr2nd2 {
+  font-family: "Staatliches", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+  position: fixed;
+  font-size: 30vw;
+  margin: 0;
+  padding: 0;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  user-select: none;
+  cursor: pointer;
+  z-index: -1;
+}
+
+.doxrdiscord, .doxrgithub, .doxrgitlab {
+  transition: color 0.1s ease-in-out;
+}
+
+.doxrdiscord:hover {
+  color: #6064f4;
+}
+
+.doxrgithub:hover {
+  color: #7c6cc4;
+}
+
+.doxrgitlab:hover {
+  color: #fc6d26;
+}
+
+.doxrspotify:hover {
+  color: #1db954;
+}
+
+.doxr2nd2 {
+  left: 80%;
+}
+
+.doxr2nd1 {
+  left: 20%;
+}
+
+.pfpimage {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 25%;
+  border-radius: 50%;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+.pfpimage {
+  transition: opacity 0.2s ease-in-out;
+}
+
+p {
+font-family: "Nunito", sans-serif;
+font-optical-sizing: auto;
+font-weight: 600;
+font-style: normal;
+position: fixed;
+
+top: 10%;
+left: 50%;
+transform: translate(-50%, -50%);
+font-size: 1.5rem;
+
+
+}
